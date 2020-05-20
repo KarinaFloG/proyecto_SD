@@ -14,10 +14,11 @@ es el mismo, este se encuentra en la carpeta correspondiente a pipeline.</p>
 <\ul>
 
 ### Comandos de ejecución:
-<li>Programas en paralelo:</li>
+<li>Programas en paralelo:
 <p>mpicc pool.c -o pool -lm</p>
-<p>mpirun -np #numeroProcesadores pool</p>
-<strong>Nota:</strong> el lm es necesario para poder utilizar la función pow de la biblioteca math.h
-<li>Programas en secuencial:</li>
+<p>mpirun -np #numeroProcesadores pool</p></li>
+<strong>Nota:</strong> La bandera -lm es necesario para poder utilizar la función pow de la biblioteca math.h
+<li>Programas en secuencial:
 <p>gcc secuencial.c -o secuencial -lm</p>
-<p>./secuencial</p>
+<p>./secuencial</p></li>
+
