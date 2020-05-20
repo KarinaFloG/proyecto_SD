@@ -12,8 +12,7 @@ int main(int argc, char const *argv[])
   if(fp==NULL){
     printf("error al crear el archivo\n");
   }else{
-    for(i=1 ; i<=200000; i++){
-      
+    for(i=1 ; i<=10000000; i++){
       dato = 1 + rand() % (17 - 1);   
       fprintf(fp,"%d\n", dato);
     }
