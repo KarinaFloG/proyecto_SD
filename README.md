@@ -8,10 +8,8 @@ Cada carpeta contiene su implementación en secuencial y paralelo. El programa s
 es el mismo, este se encuentra en la carpeta correspondiente a pipeline.</p>
 
 ### Requisitos de instalación para la ejecución:
-<ul>
 <li>Distribución de linux, de preferencia debian.</li>
 <li>MPI</li>
-<\ul>
 
 ### Comandos de ejecución:
 <li>Programas en paralelo:
